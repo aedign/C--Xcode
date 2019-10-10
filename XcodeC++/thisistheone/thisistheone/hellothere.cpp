@@ -14,7 +14,13 @@ using namespace std;
 
 int main(){
     
-    cout << "guasa" << endl;
+    int i; int *p;
+    int k;
+    
+    int i = 42;
+    p = 75;
+    
+    cout << p << endl;
 }
 
 
