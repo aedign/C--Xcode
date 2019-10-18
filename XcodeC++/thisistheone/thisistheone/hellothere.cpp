@@ -14,13 +14,18 @@ using namespace std;
 
 int main(){
     
-    int i; int *p;
-    int k;
+    int guasa[] = {1,2,3,4,5};
+    int i*;
+    int k*;
     
-    int i = 42;
-    p = 75;
+    i = guasa[0];
+    k= i;
     
-    cout << p << endl;
+    i = guasa[4];
+    
+    
+    
+    cout << *k << endl;
 }
 
 
