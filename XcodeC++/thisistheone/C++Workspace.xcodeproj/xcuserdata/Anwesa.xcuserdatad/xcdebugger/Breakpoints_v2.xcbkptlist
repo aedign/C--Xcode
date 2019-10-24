@@ -325,7 +325,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "7836955B-729A-4E75-94BC-C513360C3C2A"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Lab8/bag5.cpp"
@@ -335,6 +335,38 @@
             endingLineNumber = "190"
             landmarkName = "unknown"
             landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "7836955B-729A-4E75-94BC-C513360C3C2A - 9968595cda2e03f0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bag&lt;int&gt;::remove_repetitions()"
+                  moduleName = "Lab8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Anwesa/Git/XcodeRepository/XcodeC++/thisistheone/Lab8/bag5.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  uuid = "7836955B-729A-4E75-94BC-C513360C3C2A - c1182e497654f377"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "bag&lt;std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; &gt;::remove_repetitions()"
+                  moduleName = "Lab8"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Anwesa/Git/XcodeRepository/XcodeC++/thisistheone/Lab8/bag5.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -351,6 +383,22 @@
             endingLineNumber = "191"
             landmarkName = "unknown"
             landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F19F35D-A6CE-4F11-900E-50F2E55AF484"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab9/stack_pair.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "stack_pair"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

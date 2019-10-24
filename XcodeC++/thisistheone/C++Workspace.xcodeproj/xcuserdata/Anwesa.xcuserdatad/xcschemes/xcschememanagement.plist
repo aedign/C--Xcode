@@ -31,11 +31,15 @@
 		</dict>
 		<key>Data Structures.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 		<key>JustForFun.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<false/>
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
@@ -67,12 +71,17 @@
 		<key>Lab7B.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>13</integer>
 		</dict>
 		<key>Lab8.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>14</integer>
+		</dict>
+		<key>Lab9.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
 		</dict>
 		<key>kkkk.xcscheme_^#shared#^_</key>
 		<dict>
@@ -104,6 +113,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>DA44554623411FB200CDA29B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>DA7E5B63231AE99C00AB1E0C</key>
 		<dict>
 			<key>primary</key>
