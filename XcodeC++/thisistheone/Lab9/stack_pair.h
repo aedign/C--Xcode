@@ -65,7 +65,7 @@ public:
 
     
     bool isEmpty_b() const{
-        return (top_b == CAPACITY);
+        return (top_b == CAPACITY-1);
     }
 
     
