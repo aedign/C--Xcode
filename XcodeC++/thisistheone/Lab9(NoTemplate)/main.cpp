@@ -169,7 +169,7 @@ int main(){
     test2();
     
      // TEST 3 SHOULD FAIL, SINCE MORE NUMBERS THAN THE CAPCITY ALLOWS ARE ADDED
-   // test3();
+    test3();
     
     // TEST 4 SHOULD FAIL, SINCE THE STACKS ARE EMPTY AND NOTHING CAN BE POPPED
     test4();

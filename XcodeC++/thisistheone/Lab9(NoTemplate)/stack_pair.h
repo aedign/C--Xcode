@@ -12,7 +12,6 @@
 #include <stdio.h>
 #include <cassert>
 #include <iostream>
-using namespace std;
 
 template <class T>
 class stack_pair {
@@ -76,17 +75,6 @@ public:
    
     bool isFull_b() const{
     return (top_b < top_a);
-    }
-    
-    void print(){
-        
-        int i =0;
-        
-        while (i < CAPACITY){
-            
-            cout << data[i] << " ";
-            i++;
-        }
     }
     
 private:

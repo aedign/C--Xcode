@@ -1,0 +1,63 @@
+#include <cassert>
+#include <stdio.h>
+
+template <class T>
+  stack_pair<T>::stack_pair(){
+      
+      top_a = 0;
+      top_b = CAPACITY-1;
+  }
+
+template <class T>
+  void stack_pair<T>::push_a(T element){
+      
+      assert(!isFull_a());
+      data[top_a] = element;
+      top_a++;
+  }
+
+template <class T>
+  void stack_pair<T>::push_b(T element){
+      
+  assert(!isFull_b());
+      data[top_b] = element;
+      top_b--;
+  }
+
+template <class T>
+  T stack_pair<T>::pop_a(){
+      
+      assert(!isEmpty_a());
+      top_a--;
+      return data[top_a];
+  }
+
+  template <class T>
+  T stack_pair<T>::pop_b(){
+      
+      assert(!isEmpty_b());
+      top_b++;
+      return data[top_b];
+  }
+
+template <class T>
+  bool stack_pair<T>::isEmpty_a() const{
+      return (top_a == 0);
+  }
+
+  template <class T>
+  bool stack_pair<T>::isEmpty_b() const{
+      return (top_b == CAPACITY-1);
+  }
+
+  template <class T>
+  bool stack_pair<T>::isFull_a() const{
+  return (top_a > top_b);
+  }
+
+ template <class T>
+  bool stack_pair<T>::isFull_b() const{
+  return (top_b < top_a);
+  }
+  
+

@@ -12,7 +12,6 @@
 #include <cstdlib>  // Provides NULL, rand
 #include "node2.h"  // Provides node 
 
-
 template <class Item>
 bag<Item>::bag( )
 // Library facilities used: cstdlib
