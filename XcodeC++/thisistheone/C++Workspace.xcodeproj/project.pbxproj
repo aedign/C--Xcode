@@ -30,6 +30,8 @@
 		DA6FA4DB2321901C007FA1C8 /* stats2.h in Sources */ = {isa = PBXBuildFile; fileRef = DA6FA4D723218DC6007FA1C8 /* stats2.h */; };
 		DA6FA4DC2321901C007FA1C8 /* statexam2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA6FA4D823218E05007FA1C8 /* statexam2.cpp */; };
 		DA7E5BD7231DEA2500AB1E0C /* Assignment1b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA7E5BD6231DEA2500AB1E0C /* Assignment1b.cpp */; };
+		DA8C6855237BBD73005ACEEE /* binary_Tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8C6852237BBD73005ACEEE /* binary_Tree.cpp */; };
+		DA8C6856237BBD73005ACEEE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA8C6853237BBD73005ACEEE /* main.cpp */; };
 		DAD029F92364DBE7009D6FEF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD029F82364DBE7009D6FEF /* main.cpp */; };
 		DAD029FF2364DC15009D6FEF /* SectionNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD029FD2364DC15009D6FEF /* SectionNumbers.cpp */; };
 		DAD02A022364F58D009D6FEF /* FractalPattern.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAD02A002364F58D009D6FEF /* FractalPattern.cpp */; };
@@ -41,16 +43,6 @@
 		DAEC0F8B23748DC8005402D4 /* build_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAEC0F8823748DC8005402D4 /* build_tree.cpp */; };
 		DAEC0F8D23748E0F005402D4 /* bintree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAEC0F8C23748E0F005402D4 /* bintree.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		DACDF2D5237B51520002F5FE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DACDF2D1237B51510002F5FE /* ExtraCredit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = DACDF2C7237B51510002F5FE;
-			remoteInfo = ExtraCredit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		DA05D5E023216B8A003F0652 /* CopyFiles */ = {
@@ -144,6 +136,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		DA7E5BD2231DEA2500AB1E0C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		DA8C6849237BBD45005ACEEE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -247,7 +248,10 @@
 		DA7E5BD4231DEA2500AB1E0C /* Assignment1b */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment1b; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA7E5BD6231DEA2500AB1E0C /* Assignment1b.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Assignment1b.cpp; sourceTree = "<group>"; };
 		DA7E5BDB231DEAAD00AB1E0C /* Assignment1b.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Assignment1b.h; path = Assignment1B/Assignment1b.h; sourceTree = SOURCE_ROOT; };
-		DACDF2D1237B51510002F5FE /* ExtraCredit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExtraCredit.xcodeproj; path = ../../../../Documents/Programming/ExtraCredit/ExtraCredit.xcodeproj; sourceTree = "<group>"; };
+		DA8C684B237BBD45005ACEEE /* ExtraCreditAssignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExtraCreditAssignment; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8C6852237BBD73005ACEEE /* binary_Tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binary_Tree.cpp; sourceTree = "<group>"; };
+		DA8C6853237BBD73005ACEEE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DA8C6854237BBD73005ACEEE /* binary_Tree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = binary_Tree.hpp; sourceTree = "<group>"; };
 		DAD029F62364DBE7009D6FEF /* Assignment 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Assignment 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAD029F82364DBE7009D6FEF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DAD029FD2364DC15009D6FEF /* SectionNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SectionNumbers.cpp; sourceTree = "<group>"; };
@@ -347,6 +351,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DA7E5BD1231DEA2500AB1E0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8C6848237BBD45005ACEEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -484,7 +495,6 @@
 		DA58E0BD2318332F001D063F = {
 			isa = PBXGroup;
 			children = (
-				DACDF2D1237B51510002F5FE /* ExtraCredit.xcodeproj */,
 				DA58E0C82318332F001D063F /* thisistheone */,
 				DA44554823411FB200CDA29B /* JustForFun */,
 				DA7E5B65231AE99C00AB1E0C /* Data Structures */,
@@ -502,6 +512,7 @@
 				DAD029F72364DBE7009D6FEF /* Assignment 3 */,
 				DA1B3202236B38B3009D86E9 /* Lab10 */,
 				DAEC0F7F23748DB1005402D4 /* Lab11 */,
+				DA8C684C237BBD45005ACEEE /* ExtraCreditAssignment */,
 				DA58E0C72318332F001D063F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -525,6 +536,7 @@
 				DAD029F62364DBE7009D6FEF /* Assignment 3 */,
 				DA1B3201236B38B3009D86E9 /* Lab10 */,
 				DAEC0F7E23748DB1005402D4 /* Lab11 */,
+				DA8C684B237BBD45005ACEEE /* ExtraCreditAssignment */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -552,12 +564,14 @@
 			path = Assignment1b;
 			sourceTree = "<group>";
 		};
-		DACDF2D2237B51510002F5FE /* Products */ = {
+		DA8C684C237BBD45005ACEEE /* ExtraCreditAssignment */ = {
 			isa = PBXGroup;
 			children = (
-				DACDF2D6237B51520002F5FE /* ExtraCredit */,
+				DA8C6852237BBD73005ACEEE /* binary_Tree.cpp */,
+				DA8C6854237BBD73005ACEEE /* binary_Tree.hpp */,
+				DA8C6853237BBD73005ACEEE /* main.cpp */,
 			);
-			name = Products;
+			path = ExtraCreditAssignment;
 			sourceTree = "<group>";
 		};
 		DAD029F72364DBE7009D6FEF /* Assignment 3 */ = {
@@ -812,6 +826,23 @@
 			productReference = DA7E5BD4231DEA2500AB1E0C /* Assignment1b */;
 			productType = "com.apple.product-type.tool";
 		};
+		DA8C684A237BBD45005ACEEE /* ExtraCreditAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8C6851237BBD45005ACEEE /* Build configuration list for PBXNativeTarget "ExtraCreditAssignment" */;
+			buildPhases = (
+				DA8C6847237BBD45005ACEEE /* Sources */,
+				DA8C6848237BBD45005ACEEE /* Frameworks */,
+				DA8C6849237BBD45005ACEEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExtraCreditAssignment;
+			productName = ExtraCreditAssignment;
+			productReference = DA8C684B237BBD45005ACEEE /* ExtraCreditAssignment */;
+			productType = "com.apple.product-type.tool";
+		};
 		DAD029F52364DBE7009D6FEF /* Assignment 3 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAD029FC2364DBE7009D6FEF /* Build configuration list for PBXNativeTarget "Assignment 3" */;
@@ -939,6 +970,9 @@
 					DA7E5BD3231DEA2500AB1E0C = {
 						CreatedOnToolsVersion = 10.3;
 					};
+					DA8C684A237BBD45005ACEEE = {
+						CreatedOnToolsVersion = 11.2;
+					};
 					DAD029F52364DBE7009D6FEF = {
 						CreatedOnToolsVersion = 11.1;
 					};
@@ -967,12 +1001,6 @@
 			mainGroup = DA58E0BD2318332F001D063F;
 			productRefGroup = DA58E0C72318332F001D063F /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = DACDF2D2237B51510002F5FE /* Products */;
-					ProjectRef = DACDF2D1237B51510002F5FE /* ExtraCredit.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				DA58E0C52318332F001D063F /* C++Workspace */,
@@ -991,19 +1019,10 @@
 				DAD029F52364DBE7009D6FEF /* Assignment 3 */,
 				DA1B3200236B38B3009D86E9 /* Lab10 */,
 				DAEC0F7D23748DB1005402D4 /* Lab11 */,
+				DA8C684A237BBD45005ACEEE /* ExtraCreditAssignment */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		DACDF2D6237B51520002F5FE /* ExtraCredit */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = ExtraCredit;
-			remoteRef = DACDF2D5237B51520002F5FE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DA05D5DE23216B8A003F0652 /* Sources */ = {
@@ -1099,6 +1118,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA7E5BD7231DEA2500AB1E0C /* Assignment1b.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8C6847237BBD45005ACEEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8C6856237BBD73005ACEEE /* main.cpp in Sources */,
+				DA8C6855237BBD73005ACEEE /* binary_Tree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1463,6 +1491,24 @@
 			};
 			name = Release;
 		};
+		DA8C684F237BBD45005ACEEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA8C6850237BBD45005ACEEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		DAD029FA2364DBE7009D6FEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1662,6 +1708,15 @@
 			buildConfigurations = (
 				DA7E5BD9231DEA2500AB1E0C /* Debug */,
 				DA7E5BDA231DEA2500AB1E0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8C6851237BBD45005ACEEE /* Build configuration list for PBXNativeTarget "ExtraCreditAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8C684F237BBD45005ACEEE /* Debug */,
+				DA8C6850237BBD45005ACEEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
